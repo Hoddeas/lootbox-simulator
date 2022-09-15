@@ -20,3 +20,20 @@ img {
 .drops {
     text-align: left;
 }
+
+a {
+    text-align: center;
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+href {
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(207, 207, 207);
+}
