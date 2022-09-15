@@ -1,2 +1,1 @@
-// Change lootbox
-let selectedLootbox = document.getElementById(type)
+var coins = "image/gold coins.png"
