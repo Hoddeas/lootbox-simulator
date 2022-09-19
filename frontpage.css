@@ -14,7 +14,7 @@ select {
 
 img {
     max-width: 50%;
-    height: auto;
+    height: 300px;
 }
 
 .drops {
@@ -28,10 +28,6 @@ a {
     text-decoration: none;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-href {
-    text-align: center;
 }
 
 a:hover {

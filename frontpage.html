@@ -8,7 +8,7 @@
         <title>Document</title>
 
         <link rel="stylesheet" href="frontpage.css" />
-        <script defer src="functions.js"></script>
+        <script defer src="functions-library.js"></script>
         <script defer src="main.js"></script>
     </head>
 
@@ -31,13 +31,19 @@
             <br><br>
             Click on the lootbox to open it!
         </p>
+
+        <p><button id="reset">Reset Lootbox</button></p>
         
         <p>
             <img onclick="openLootbox()" id="lootbox-img" src="images/wooden lootbox closed.png"></img>
 
         </p>
 
-        <p class="drops">
+        <hr>
+
+        <br>
+
+        <p>
             You got: <span id="drops"></span>
         </p>
 
